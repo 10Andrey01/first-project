@@ -24,8 +24,11 @@
 - commit - *это отправка изменений из stage в репозиторий*
 
 ```mermaid
-%% описание схемы
+graph LR;
+untracked -- "git add" --> staged;
+staged -- "git commit" --> tracked/comitted;
 ```
+
 
 
 
